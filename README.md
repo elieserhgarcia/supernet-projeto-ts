@@ -54,7 +54,7 @@ Siga os passos abaixo para rodar o projeto em sua máquina:
 
 2. **Acesse a pasta do projeto:**
    ```bash
-   cd supernet
+   cd supernet-projeto-ts
 
 3. **Instale as dependências:**
    *(Certifique-se de ter o Node.js instalado)*

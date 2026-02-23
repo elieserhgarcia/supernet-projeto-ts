@@ -46,7 +46,7 @@ const fadeUpVariants: Variants = {
 ```
 ## 🚀 Como Executar o Projeto
 
-Acesse usando Vercel: https://supernet-projeto-elieser-5ksuiuumc-elieserhgarcias-projects.vercel.app?_vercel_share=Ijsd3SZCafIRjITpIimIvdynYtw4Nxw8
+Acesse usando Vercel: https://supernet-projeto-elieser-hkosa6pkn-elieserhgarcias-projects.vercel.app?_vercel_share=K3TKLNaevx6s5B9ont4OsB70OD52G3zt
 
 Siga os passos abaixo para rodar o projeto em sua máquina:
 

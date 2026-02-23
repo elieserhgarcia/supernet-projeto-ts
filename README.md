@@ -4,7 +4,7 @@
 A SuperNet é uma Landing Page moderna e de alta performance desenvolvida para uma empresa provedora de internet via fibra óptica. O projeto foca em uma experiência de usuário fluida, utilizando uma temática visual tecnológica em tons de roxo e verde neon.
 
 📱 Demonstração
-Link do Projeto: [Insira o link da Vercel/Netlify aqui]
+Link do Projeto:
 
 🛠️ Tecnologias Utilizadas
 React + TypeScript: Garantindo robustez, tipagem estática e facilidade de manutenção no código.

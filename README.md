@@ -1,3 +1,6 @@
+Português | English
+
+PT
 # 🚀 SuperNet - Provedor de Internet de Fibra Óptica
 
 Este é um projeto de Landing Page moderna e de alta performance para a **SuperNet**, uma empresa fictícia de provimento de internet. O site foi construído com foco em conversão e uma estética futurista, utilizando as cores roxo e verde neon.
@@ -99,3 +102,106 @@ Desenvolvido por **Eliéser Hansen Gallas Garcia** – [LinkedIn](www.linkedin.c
 ---
 
 > Projeto desenvolvido como parte do meu portfólio profissional para demonstrar domínio em **React + TypeScript**.
+
+EN
+# 🚀 SuperNet - Fiber Optic Internet Provider
+
+This is a modern and high-performance Landing Page project for **SuperNet**, a fictional internet service provider. The website was built with a focus on conversion and a futuristic aesthetic, utilizing purple and neon green colors.
+
+---
+
+## 🛠️ Technologies and Tools
+
+* **React**: Core library for building the interface.
+* **TypeScript**: Used to ensure type safety throughout the application (Interfaces, Variants, Props).
+* **Tailwind CSS**: Utility-first styling framework for a modern and responsive design.
+* **Framer Motion**: Library responsible for fluid scroll animations and element entrances.
+* **Splide.js**: Implementation of interactive carousels for the "Plans" and "Infrastructure" sections.
+* **Lucide React**: A set of minimalist and consistent icons.
+
+---
+
+## ✨ Key Features
+
+* **Smart Navigation**: Fixed menu with a *glassmorphism* effect and smooth scrolling between sections.
+* **Immersive Visual Experience**: Use of glow animations, gradients, and depth layers.
+* **Dynamic Carousel**: Fully responsive and navigable sections for plans and infrastructure.
+* **Call to Action (CTA)**: Integrated buttons for direct contact via WhatsApp.
+* **Performance and Typing**: Typed components to prevent runtime errors and facilitate maintenance.
+
+---
+
+## 💡 Technical Highlights (TypeScript & Motion)
+
+In this project, I applied advanced animation concepts with TypeScript to ensure the code is reusable and secure:
+
+```typescript
+// Example of Framer Motion variants typing used in the project
+const fadeUpVariants: Variants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: (delay: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { 
+      delay, 
+      duration: 0.8, 
+      ease: "easeOut"
+    }
+  })
+};
+```
+## 🚀 How to Run the Project
+
+Acess via Vercel: https://supernet-definitivo.vercel.app?_vercel_share=EdvFAgZR7fIWi8asdV17wrJT8qlTOji3
+
+Follow the steps below to run the project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/elieserhgarcia/supernet-projeto-ts.git](https://github.com/elieserhgarcia/supernet-projeto-ts.git)
+
+2. **Navigate to the project folder:**
+   ```bash
+   cd supernet-projeto-ts
+
+3. **Install dependencies:**
+   *(Make sure you have Node.js installed)*
+   ```bash
+   npm install
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+
+5. **Acess in your browser:**
+   Open [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🎨 Layout and Theme
+
+The project follows a **High-Tech** identity:
+- **Colors:** Deep Purple (`#1e2336`) and Neon Green (`#22c55e`).
+- **Animations:** Implementation of custom `variants` in Framer Motion for *fade-up* effects and staggered *delays*.
+- **Typing:** Use of `type Variants` and interfaces to ensure data integrity within components.
+
+---
+
+## 📦 Main File Structure
+
+- `src/components/header.tsx`: Menu and navigation with blur effect.
+- `src/components/hero.tsx`: Main section with coordinated animations.
+- `src/components/sobre.tsx`: Section with company details.
+- `src/components/planos.tsx`: Interactive slider for internet plans.
+- `src/components/avaliacoes.tsx`: Grid for key differentiators and testimonials.
+- `src/components/footer.tsx`: Page footer.
+
+---
+
+## 👤 Author
+
+Developed by **Eliéser Hansen Gallas Garcia** – [LinkedIn](www.linkedin.com/in/eliéser-garcia-9038963ab)
+
+---
+
+> Project developed as part of my professional portfolio to demonstrate proficiency in **React + TypeScript**.

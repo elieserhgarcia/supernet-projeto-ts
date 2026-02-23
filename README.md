@@ -43,7 +43,7 @@ const fadeUpVariants: Variants = {
     }
   })
 };
-
+```
 ## 🚀 Como Executar o Projeto
 
 Siga os passos abaixo para rodar o projeto em sua máquina:

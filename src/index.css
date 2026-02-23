@@ -1,0 +1,113 @@
+@import "tailwindcss";
+@import "@splidejs/react-splide/css";
+
+.splide__arrow--next {
+  right: -1rem;
+}
+
+.splide__arrow--prev {
+  left: -1rem;
+}
+/* ------------ */
+.splide__pagination {
+  bottom: -3rem !important;
+}
+
+.splide__pagination__page {
+  background: #374151;
+  transition: all 0.3s ease;
+}
+
+.splide__pagination__page.is-active {
+  background: #22c55e;
+  transform: scale(1.4);
+}
+/* ------------- */
+
+.splide__arrow {
+  transition: all 0.3s ease-in-out !important;
+}
+
+
+/*-------------------------*/
+
+.secao-planos .splide__slide.is-active > div {
+  transform: scale(1.08);
+  border-color: #22c55e7e !important;
+  box-shadow: 0 0 50px -15px rgba(34, 197, 94, 0.3);
+  z-index: 20;
+  transition: all 0.5s ease;
+}
+
+.secao-planos .splide__slide:not(.is-active) > div {
+  transform: scale(0.95);
+  opacity: 0.6;
+  transition: all 0.5s ease;
+}
+
+/* .card-container {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(0.9);
+  opacity: 0.5;
+} */
+
+/* .splide__slide.is-active .card-container {
+  transform: scale(1.08);
+  border-color: #22c55e;
+  box-shadow: 0 0 50px -15px rgba(34, 197, 94, 0.3);
+  z-index: 30;
+} */
+
+.secao-planos .splide__slide.is-active button {
+  background-color: #22c55e !important;
+  color: #000 !important;
+  border: none !important;
+  box-shadow: 0 10px 25px -5px rgba(34, 197, 94, 0.4);
+}
+
+.secao-planos .splide__track {
+  overflow: visible !important;
+}
+
+.splide__slide.is-active button:hover {
+  background-color: #1db053 !important;
+}
+
+.splide__track {
+  overflow: hidden !important;
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+/* //////// */
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.15);
+  }
+}
+
+.animate-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.glow-slow {
+  animation-duration: 5.2s !important;
+  animation-delay: 1s !important;
+}
+
+.glow-fast {
+  animation-duration: 2.1s !important;
+  animation-delay: -0.5s !important;
+}
+
+
+
+section {
+  contain: paint;
+}

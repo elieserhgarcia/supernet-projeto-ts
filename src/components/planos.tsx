@@ -178,7 +178,7 @@ className="secao-planos relative px-80 py-20 bg-gray-900">
             </ul>
 
             <button 
-            onClick={() => window.open("https://wa.me/+554892005385")}
+            onClick={() => window.open("https://wa.me/+55999999999")}
             className="group cursor-pointer w-full py-4 rounded-2xl font-bold transition-all duration-300 flex items-center justify-center gap-2 bg-white/5 text-[#f0f0f0] border border-white/10 hover:bg-white/10 relative z-20">
         Assinar Agora 
         <span className="text-xl transition-transform duration-300 group-hover:translate-x-2">

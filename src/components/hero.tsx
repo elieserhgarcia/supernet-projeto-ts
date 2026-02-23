@@ -80,12 +80,12 @@ custom={1.9}
 >
           <div className="justify-between w-2/3 flex flex-wrap gap-4 mb-4">
             <button 
-            onClick={() => window.open("https://wa.me/+554892005385")}
+            onClick={() => window.open("https://wa.me/+559999999999")}
             className="bg-green-500 hover:bg-green-600 text-slate-900 px-10 py-4 rounded-full font-bold transition-all shadow-[0_0_20px_rgba(34,197,94,0.3)] cursor-pointer">
               Falar com Consultor
             </button>
             <button 
-            onClick={() => window.open("https://wa.me/+554892005385")}
+            onClick={() => window.open("https://wa.me/+559999999999")}
             className="border border-gray-500 hover:border-[#f0f0f0] text-[#f0f0f0] px-10 py-4 rounded-full font-bold transition-all cursor-pointer">
               Nossos Serviços
             </button>

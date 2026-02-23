@@ -43,3 +43,57 @@ const fadeUpVariants: Variants = {
     }
   })
 };
+
+## 🚀 Como Executar o Projeto
+
+Siga os passos abaixo para rodar o projeto em sua máquina:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/elieserhgarcia/supernet-projeto-ts.git](https://github.com/elieserhgarcia/supernet-projeto-ts.git)
+
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd supernet
+
+3. **Instale as dependências:**
+   *(Certifique-se de ter o Node.js instalado)*
+   ```bash
+   npm install
+
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+
+5. **Acesse no navegador:**
+   Abra [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🎨 Layout e Temática
+
+O projeto segue uma identidade **High-Tech**:
+- **Cores:** Roxo Profundo (`#1e2336`) e Verde Neon (`#22c55e`).
+- **Animações:** Implementação de `variants` customizadas no Framer Motion para efeitos de *fade-up* e *delay* escalonado.
+- **Tipagem:** Uso de `type Variants` e interfaces para garantir a integridade dos dados nos componentes.
+
+---
+
+## 📦 Estrutura de Arquivos Principal
+
+- `src/components/header.tsx`: Menu e navegação com efeito de desfoque.
+- `src/components/hero.tsx`: Seção principal com animações coordenadas.
+-`src/components/sobre.tsx`: Seção com detalhes sobre a empresa.
+- `src/components/planos.tsx`: Slider interativo de planos de internet.
+- `src/components/avaliacoes.tsx`: Grid de diferenciais e depoimentos.
+- `src/components/footer.tsx`: Rodapé da página.
+
+---
+
+## 👤 Autor
+
+Desenvolvido por **Eliéser Hansen Gallas Garcia** – [LinkedIn](www.linkedin.com/in/eliéser-garcia-9038963ab)
+
+---
+
+> Projeto desenvolvido como parte do meu portfólio profissional para demonstrar domínio em **React + TypeScript**.

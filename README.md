@@ -1,7 +1,8 @@
 # supernet-projeto-ts
 
 🚀 SuperNet - Provedor de Internet de Fibra Óptica
-A SuperNet é uma Landing Page moderna e de alta performance desenvolvida para uma empresa provedora de internet via fibra óptica. O projeto foca em uma experiência de usuário fluida, utilizando uma temática visual tecnológica em tons de roxo e verde neon.
+
+A SuperNet é uma Landing Page moderna e de alta performance desenvolvida para uma empresa provedora de internet via fibra óptica. O projeto foca em uma experiência de usuário fluida, utilizando uma temática visual tecnológica em tons de roxo e verde.
 
 📱 Demonstração
 Link do Projeto:
@@ -41,17 +42,20 @@ Hooks e Interatividade: Manipulação de eventos de scroll e integração com bi
 Clone o repositório:
 
 Bash
-
 git clone https://github.com/seu-usuario/supernet.git
+
+
 Instale as dependências:
 
 Bash
-
 npm install
+
+
 Inicie o servidor de desenvolvimento:
 
 Bash
-
 npm run dev
+
+
 📩 Contato
-Desenvolvido por Seu Nome – Seu LinkedIn
+Desenvolvido por Eliéser Hansen Gallas Garcia – www.linkedin.com/in/eliéser-garcia-9038963ab

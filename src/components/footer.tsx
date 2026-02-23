@@ -63,7 +63,7 @@ export function Footer() {
 
         <div className="pt-3 border-t border-gray-800/50 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-sm">
-            © 2026 SeuNome. Todos os direitos reservados.
+            © 2026 SuperNet. Todos os direitos reservados.
           </p>
           <div className="flex gap-8">
             <a href="#" className="text-gray-500 hover:text-white transition-colors text-sm">Política de Privacidade</a>

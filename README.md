@@ -83,7 +83,7 @@ O projeto segue uma identidade **High-Tech**:
 
 - `src/components/header.tsx`: Menu e navegação com efeito de desfoque.
 - `src/components/hero.tsx`: Seção principal com animações coordenadas.
--`src/components/sobre.tsx`: Seção com detalhes sobre a empresa.
+- `src/components/sobre.tsx`: Seção com detalhes sobre a empresa.
 - `src/components/planos.tsx`: Slider interativo de planos de internet.
 - `src/components/avaliacoes.tsx`: Grid de diferenciais e depoimentos.
 - `src/components/footer.tsx`: Rodapé da página.

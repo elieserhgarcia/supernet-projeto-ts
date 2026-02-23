@@ -2,11 +2,11 @@ import { Wifi, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-[#0f172a] border-t border-gray-800/50 pt-10 pb-10 px-80">
+    <footer className="bg-[#0f172a] border-t border-gray-800/50 pt-10 pb-10 px-4 md:px-20 lg:px-40 xl:px-80">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
 
-          <div className="col-span-1">
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <div className="flex items-center gap-2 mb-6">
              <Wifi className="w-6 h-6 text-white" strokeWidth={2.5} />
               <span className="text-[#f0f0f0] text-2xl font-bold tracking-tight">
@@ -22,7 +22,7 @@ export function Footer() {
                 <a 
                   key={idx} 
                   href="#" 
-                  className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-[#22c55e] hover:border-[#22c55e]/50 transition-all"
+                  className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-[#22c55e] hover:border-[#22c55e] transition-all"
                 >
                   <Icon size={18} />
                 </a>
@@ -30,7 +30,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="text-[#f0f0f0] font-bold mb-6">Produtos</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Planos Residenciais</a></li>
@@ -40,7 +40,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="text-[#f0f0f0] font-bold mb-6">Suporte</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Central de Ajuda</a></li>
@@ -50,7 +50,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="text-[#f0f0f0] font-bold mb-6">Empresa</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Sobre Nós</a></li>
@@ -62,7 +62,7 @@ export function Footer() {
         </div>
 
         <div className="pt-3 border-t border-gray-800/50 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-gray-500 text-sm">
+          <p className="text-gray-500 text-sm text-center md:text-left">
             © 2026 SuperNet. Todos os direitos reservados.
           </p>
           <div className="flex gap-8">

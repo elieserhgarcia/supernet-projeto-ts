@@ -136,7 +136,7 @@ export function Avaliacoes() {
   return (
     <section 
     id="avaliacoes"
-    className="relative w-full py-20 px-8 md:px-40 lg:px-80 bg-gray-900 overflow-x-clip">
+    className="relative w-full py-5 md:py-20 px-8 md:px-20 lg:px-40 xl:px-80 bg-gray-900 overflow-x-clip">
       <div className="container mx-auto max-w-7xl">
         <motion.div 
         custom={0.2}
@@ -145,7 +145,7 @@ export function Avaliacoes() {
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeUpVariants}
         className="text-center mb-16">
-          <h2 className="text-[#f0f0f0] text-6xl md:text-5xl font-bold mb-4">
+          <h2 className="text-[#f0f0f0] text-4xl md:text-7xl font-bold mb-4">
             Por que escolher {}
             <span className="relative inline-block">
               <span className="absolute inset-0 bg-linear-to-r from-[#22c55e]/30 to-purple-800/30 blur-3xl rounded-full z-0"></span>

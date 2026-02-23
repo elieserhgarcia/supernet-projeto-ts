@@ -22,7 +22,7 @@ const itemVariants: Variants = {
     
     <section
       id="inicio"
-      className="inicio relative w-full min-h-screen bg-gray-900 flex items-center pb-80 px-80 overflow-hidden"
+      className="inicio relative w-full min-h-screen bg-gray-900 flex flex-col lg:flex-row pt-32 lg:pt-0 items-center pb-4 md:pb-20 lg:pb-40 xl:pb-80 px-4 md:px-20 lg:px-40 xl:px-80 overflow-hidden"
       style={{
         backgroundImage: "url('/hero-bg.png')",
         backgroundSize: "cover",
@@ -40,10 +40,10 @@ const itemVariants: Variants = {
             initial="hidden"
             animate="visible"
 
-          className="mt-80 text-[#f0f0f0] text-5xl lg:text-7xl font-black leading-[1.1] mb-6">
+          className="mt-10 lg:mt-80 text-4xl lg:text-7xl text-[#f0f0f0] font-black leading-[1.1] mb-6">
             Infraestrutura <br />
             que o{" "}
-            <span className="relative inline-block font-bold">
+            <span className="relative inline-block font-black">
               <span className="absolute inset-0 bg-linear-to-r from-purple-800/60 to-[#22c55e]/60 blur-3xl rounded-full -z-10 animate-glow"></span>
               <span className="bg-clip-text text-transparent bg-linear-to-r from-purple-800 to-[#22c55e]">
                 futuro
@@ -51,7 +51,7 @@ const itemVariants: Variants = {
             </span>{" "}
             <br />
             da sua{" "}
-            <span className="relative inline-block font-bold">
+            <span className="relative inline-block font-black">
               <span className="absolute inset-0 bg-linear-to-r from-[#22c55e]/60 to-purple-800/60 blur-3xl rounded-full -z-10 animate-glow"></span>
               <span className="bg-clip-text text-transparent bg-linear-to-r from-[#22c55e] to-purple-800">
                 conexão
@@ -91,13 +91,13 @@ custom={1.9}
             </button>
           </div>
 
-          <div className="flex justify-between items-center w-2/3 text-[#f0f0f0] text-4xl lg:text-4xl font-black leading-[1.1]">
+          <div className="flex justify-between items-center w-full lg:w-2/3 text-[#f0f0f0] text-4xl lg:text-4xl font-black leading-[1.1]">
             <span>24/7h</span>
             <span>500K</span>
             <span>100%</span>
           </div>
 
-          <div className="flex justify-between items-center w-2/3 text-[#f0f0f0] text-lg lg:text-xl">
+          <div className="flex justify-between items-center w-full lg:w-2/3 text-[#f0f0f0] text-lg lg:text-xl">
             <span>atendimento</span>
             <span>clientes</span>
             <span>garantia</span>
@@ -116,7 +116,7 @@ custom={1.9}
             <img
               src="/tecnico-hero.png"
               alt="Técnico Especialista"
-              className="mt-60 relative z-10 w-full max-w[450px] h-auto rounded-3xl shadow-2xl border-5 border-white/20 hover:scale-102 hover:brightness-110 transition duration-300"
+              className="mt-10 lg:mt-60 relative z-10 w-full max-w[450px] h-auto rounded-3xl shadow-2xl border-5 border-white/20 hover:scale-102 hover:brightness-110 transition duration-300"
             />
           </motion.div>
         </div>

@@ -89,7 +89,7 @@ export function Planos() {
 
 <section 
 id="planos"
-className="secao-planos relative px-80 py-20 bg-gray-900">
+className="secao-planos relative px-4 md:px-20 lg:px-40 xl:px-80 py-20 bg-gray-900">
       <motion.div 
       custom={0.2}
           initial="hidden"
@@ -97,7 +97,7 @@ className="secao-planos relative px-80 py-20 bg-gray-900">
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeUpVariants}
       className="container mx-auto">
-        <h2 className="text-[#f0f0f0] text-center text-6xl md:text-5xl font-bold mb-4">Escolha sua {   }
+        <h2 className="text-[#f0f0f0] text-center text-4xl md:text-7xl font-bold mb-4">Escolha sua {   }
           <span className="relative inline-block">
             <span className="absolute inset-0 bg-linear-to-r from-purple-800/30 to-[#22c55e]/30 blur-3xl rounded-full z-0"></span>
             <span className="relative z-10 bg-clip-text text-transparent bg-linear-to-r from-purple-800 to-[#22c55e]">
@@ -127,9 +127,9 @@ className="secao-planos relative px-80 py-20 bg-gray-900">
         focus: "center",
         trimSpace: false,
         breakpoints: {
-          1024: { perPage: 2 },
-          768: { perPage: 1, padding: "5rem" },
-        },
+      1024: { perPage: 2, gap: "1rem" }, // Laptops
+      768: { perPage: 1, gap: "0.5rem", padding: "10%" }, // Tablets e Celulares
+    },
       }}
     >
       {planosData.map((plano, index) => (

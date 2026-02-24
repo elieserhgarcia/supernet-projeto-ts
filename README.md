@@ -200,7 +200,7 @@ The project follows a **High-Tech** identity:
 
 ## 👤 Author
 
-Developed by **Eliéser Hansen Gallas Garcia** – [LinkedIn](www.linkedin.com/in/eliéser-garcia-9038963ab)
+Developed by **Eliéser Hansen Gallas Garcia** – [LinkedIn](https://www.linkedin.com/in/eliéser-garcia-9038963ab)
 
 ---
 

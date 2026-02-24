@@ -97,7 +97,7 @@ O projeto segue uma identidade **High-Tech**:
 
 ## 👤 Autor
 
-Desenvolvido por **Eliéser Hansen Gallas Garcia** – [LinkedIn](www.linkedin.com/in/eliéser-garcia-9038963ab)
+Desenvolvido por **Eliéser Hansen Gallas Garcia** – [LinkedIn](https://www.linkedin.com/in/eliéser-garcia-9038963ab)
 
 ---
 
